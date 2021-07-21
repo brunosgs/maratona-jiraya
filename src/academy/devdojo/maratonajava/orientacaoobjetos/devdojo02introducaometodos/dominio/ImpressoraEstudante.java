@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.orientacaoobjetos.introducaometodos.dominio;
+package academy.devdojo.maratonajava.orientacaoobjetos.devdojo02introducaometodos.dominio;
 
 public class ImpressoraEstudante {
 	public void imprime(Estudante estudante) {

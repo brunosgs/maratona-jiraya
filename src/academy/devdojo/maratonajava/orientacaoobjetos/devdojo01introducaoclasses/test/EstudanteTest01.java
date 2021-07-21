@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.orientacaoobjetos.introducaoclasses.test;
+package academy.devdojo.maratonajava.orientacaoobjetos.devdojo01introducaoclasses.test;
 
-import academy.devdojo.maratonajava.orientacaoobjetos.introducaoclasses.dominio.Estudante;
+import academy.devdojo.maratonajava.orientacaoobjetos.devdojo01introducaoclasses.dominio.Estudante;
 
 public class EstudanteTest01 {
 

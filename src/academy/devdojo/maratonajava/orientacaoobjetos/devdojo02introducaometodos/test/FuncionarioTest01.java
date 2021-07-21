@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.orientacaoobjetos.introducaometodos.test;
+package academy.devdojo.maratonajava.orientacaoobjetos.devdojo02introducaometodos.test;
 
-import academy.devdojo.maratonajava.orientacaoobjetos.introducaometodos.dominio.Funcionario;
+import academy.devdojo.maratonajava.orientacaoobjetos.devdojo02introducaometodos.dominio.Funcionario;
 
 /*
   Crie uma classe Funcionario com os seguintes atributos:
@@ -17,9 +17,9 @@ public class FuncionarioTest01 {
 	public static void main(String[] args) {
 		Funcionario funcionario = new Funcionario();
 
-		funcionario.nome = "Pedro";
-		funcionario.idade = 25;
-		funcionario.salarios = new double[] { 1200, 987.32, 2000 };
+		funcionario.setNome("Pedro");
+		funcionario.setIdade(25);;
+		funcionario.setSalarios(new double[] { 1200, 987.32, 2000 });
 
 		funcionario.imprime();
 	}

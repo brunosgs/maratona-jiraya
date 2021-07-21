@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.orientacaoobjetos.introducaometodos.test;
+package academy.devdojo.maratonajava.orientacaoobjetos.devdojo02introducaometodos.test;
 
-import academy.devdojo.maratonajava.orientacaoobjetos.introducaometodos.dominio.Calculadora;
+import academy.devdojo.maratonajava.orientacaoobjetos.devdojo02introducaometodos.dominio.Calculadora;
 
 public class CalculadoraTest01 {
 

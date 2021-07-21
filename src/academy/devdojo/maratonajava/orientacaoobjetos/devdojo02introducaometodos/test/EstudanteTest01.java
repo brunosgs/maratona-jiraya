@@ -1,7 +1,7 @@
-package academy.devdojo.maratonajava.orientacaoobjetos.introducaometodos.test;
+package academy.devdojo.maratonajava.orientacaoobjetos.devdojo02introducaometodos.test;
 
-import academy.devdojo.maratonajava.orientacaoobjetos.introducaometodos.dominio.Estudante;
-import academy.devdojo.maratonajava.orientacaoobjetos.introducaometodos.dominio.ImpressoraEstudante;
+import academy.devdojo.maratonajava.orientacaoobjetos.devdojo02introducaometodos.dominio.Estudante;
+import academy.devdojo.maratonajava.orientacaoobjetos.devdojo02introducaometodos.dominio.ImpressoraEstudante;
 
 public class EstudanteTest01 {
 
