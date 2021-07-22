@@ -3,7 +3,7 @@ package academy.devdojo.maratonajava.orientacaoobjetos.devdojo06modificadoresace
 public class Carro {
 	private String nome;
 	private double velocidadeMaxima;
-	public static double velocidadeLimite = 250;
+	private static double velocidadeLimite = 250;
 
 	public Carro(String nome, double velocidadeMaxima) {
 		this.nome = nome;
@@ -26,10 +26,20 @@ public class Carro {
 		this.velocidadeMaxima = velocidadeMaxima;
 	}
 
+	public static double getVelocidadeLimite() {
+		return velocidadeLimite;
+	}
+
+	// Um método estático não acessa atributos da classe, só é possível acessar
+	// quando os mesmo é static
+	public static void setVelocidadeLimite(double velocidadeLimite) {
+		Carro.velocidadeLimite = velocidadeLimite;
+	}
+
 	public void imprime() {
 		System.out.println("---------------------");
 		System.out.println("Nome: " + this.nome);
 		System.out.println("Velocidade máxima: " + this.velocidadeMaxima);
-		System.out.println("Velocidade limite: " + Carro.velocidadeLimite);
+		System.out.println("Velocidade limite: " + Carro.getVelocidadeLimite());
 	}
 }
