@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.jiraya04.classesutilitarias.devdojo03datas.test;
+package academy.devdojo.maratonajava.jiraya04.classesutilitarias.devdojo04formatacoes;
 
 import java.text.DateFormat;
 import java.util.Calendar;

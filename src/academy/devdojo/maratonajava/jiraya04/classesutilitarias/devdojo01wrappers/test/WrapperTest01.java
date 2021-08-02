@@ -3,6 +3,7 @@ package academy.devdojo.maratonajava.jiraya04.classesutilitarias.devdojo01wrappe
 // As classes Wrapper são os tipos primitivos encapsulados.
 public class WrapperTest01 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		// Autoboxing
 		Byte byteW = 127;
