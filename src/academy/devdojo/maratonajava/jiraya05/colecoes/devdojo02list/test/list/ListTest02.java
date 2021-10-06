@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.jiraya05.colecoes.devdojo02list.test;
+package academy.devdojo.maratonajava.jiraya05.colecoes.devdojo02list.test.list;
 
 import java.util.ArrayList;
 import java.util.List;
